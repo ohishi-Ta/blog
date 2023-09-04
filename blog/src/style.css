@@ -1,0 +1,102 @@
+body {
+  background-color: #eaf5ff;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  background: #d4aa8c;
+  color: #fff;
+}
+
+nav a {
+  margin: 0 20px;
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+nav a svg {
+  margin-right: 5px;
+}
+
+nav a:hover {
+  opacity: 0.6;
+}
+
+.loginbox {
+  width: 500px;
+  margin: 100px auto 0;
+  text-align: center;
+  border: 1px solid #000;
+  background: #fff;
+  padding: 30px;
+}
+
+/* ポスト投稿 */
+.createpost {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.createpostinner {
+  background: #fff;
+  padding: 50px 30px;
+  width: 500px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: none;
+}
+
+input {
+  height: 30px;
+}
+
+textarea {
+  height: 120px;
+}
+
+.postbtn {
+  background: #5a748c;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.homepost {
+  width: 600px;
+  background: #fff;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.deleatbtn {
+  display: block;
+  margin: 0 0 0 auto;
+  background-color: rgb(219, 123, 123);
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
